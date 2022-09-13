@@ -33,6 +33,7 @@ five_d = five_b[:2]			#slicing the string till second element
 five_e = four_b.append(type(five_d))	#appneding the type of five_d to the list 
 
 five_f = [int(s) for s in five_b.split() if s.isdigit()]	#creating a new list using list comprehension which contains only integers
+#five_f = list(five_d)
 
 five_g = four_b.append(type(five_f))	#appending type of five_f to list from question 4
 
